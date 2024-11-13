@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+header{
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.header-row,
+.helpfull-links, 
+.header-contacts,
+.user-buttons
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 2vh;
+    align-items: center;
+    padding: 0.5vh 0.3vh;
+    
+}
+
+.header-row{
+    height: 6vh;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 0.5vh;
+}
+
+.header-contacts{
+    font-size: smaller;
+}
+
+.nav{
+    background: #003FED;
+    border-radius: 10px;
+}
+
+.nav a{
+    
+    color: #fff;
+}
+
+.header-row form
+{
+    width: 80%;
+    position: relative;
+}
+
+.header-row input{
+    width: 100%;
+}
+
+.header-row form button{
+    position: absolute;
+    right: 1%;
+}
+
+/* ^^^^ HEADER ^^^^ */
+
+
+
+
+/* **** FOOTER **** */
+
+footer{
+    width: 100%;
+    background: #000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: 50vh;
+}
+
+footer a{
+    color: #fff;
+}
+
+.foo-con{
+    height: 100%;
+    color: #fff;
+    padding: 2vh 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.foo-col{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.foo-link-mail{
+    color: #F8A458;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.foo-link-tel{
+    color: #40AD5B;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    gap: 2vh;
+    align-items: center;
+    padding: 0.5vh 0.3vh;
+}
+
+.soc-link img{
+    width: 32px;
+    height: 32px;
+}
